@@ -1,0 +1,115 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:#f8f9fa ; 
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  main {
+    background-image: url(https://media.istockphoto.com/photos/locked-self-storage-unit-picture-id160321684?b=1&k=20&m=160321684&s=170667a&w=0&h=Wj4AsNUSONHi45_Nx5lDV2Ugi4CZSmqImkKqVmisvSM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+  }
+  
+  .input-field input[type="date"]:focus + label,
+  .input-field input[type="text"]:focus + label,
+  .input-field input[type="email"]:focus + label,
+  .input-field input[type="password"]:focus + label {
+    color: #1e4de9;
+  }
+  
+  .input-field input[type="date"]:focus,
+  .input-field input[type="text"]:focus,
+  .input-field input[type="email"]:focus,
+  .input-field input[type="password"]:focus {
+    border-bottom: 2px solid #1e4de9;
+    box-shadow: none;
+  }
+  
+  .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loginFormContainer{
+    display: inline-block;
+    padding: 32px 48px 0px 48px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+  }
+
+  .windowOne{
+    display: flex; 
+    flex-direction: row; 
+  }
+  
+.title{
+  display: flex;
+  justify-content: center;
+  color: #007bff;
+  text-decoration: underline;
+  padding-top: 25px;
+}
+
+.topBox{
+  height: 150px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  display: flex;
+  justify-content:space-evenly;
+  margin: 50px
+}
+.unitMapBox{
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.timeSlot{
+  display: flex;
+  align-items: center;
+}
+
+.custButtons{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.unitCards{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customerInformation{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.random{
+  display: flex;
+  justify-content: center;
+
+}
